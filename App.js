@@ -7,7 +7,7 @@ const App = () => {
   return (
     <View style={styles.container}>
       <Simples texto="Flexível" />
-      <ParImpar numero={33} />
+      <ParImpar numero={36} />
     </View>
   );
 };
