@@ -25,7 +25,7 @@ export default function (props) {
         <View>
             {/* //Maneira 3 */}
             {parOuImpar(props.numero)}
-            
+
             {/* {
                 //Maneira 1
                 props.numero % 2 === 0
