@@ -6,6 +6,7 @@ import ParImpar from './componentes/ParImpar'
 import Simples from './componentes/Simples'
 import 'react-native-gesture-handler'
 import Contador from './componentes/Contador'
+import Plataforma from './componentes/Plataformas'
 /**
  * Não foi possível realizar essa aula seguindo o processo de instalação da aula
  * As instalaçóes necessárias são as seguintes
@@ -45,6 +46,9 @@ export default function Menu() {
                 </Drawer.Screen>
                 <Drawer.Screen name="Contador">
                     {props => <Contador numeroInicial={20} />}
+                </Drawer.Screen>
+                <Drawer.Screen name="Plataformas">
+                    {props => <Plataforma />}
                 </Drawer.Screen>
             </Drawer.Navigator>
         </NavigationContainer>
