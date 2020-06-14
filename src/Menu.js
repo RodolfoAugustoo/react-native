@@ -5,6 +5,7 @@ import { Inverter, MegaSena } from './componentes/Multi'
 import ParImpar from './componentes/ParImpar'
 import Simples from './componentes/Simples'
 import 'react-native-gesture-handler'
+import Contador from './componentes/Contador'
 /**
  * Não foi possível realizar essa aula seguindo o processo de instalação da aula
  * As instalaçóes necessárias são as seguintes
@@ -41,6 +42,9 @@ export default function Menu() {
                 </Drawer.Screen>
                 <Drawer.Screen name="Simples">
                     {props => <Simples texto="Curso React Native" />}
+                </Drawer.Screen>
+                <Drawer.Screen name="Contador">
+                    {props => <Contador numeroInicial={20} />}
                 </Drawer.Screen>
             </Drawer.Navigator>
         </NavigationContainer>
